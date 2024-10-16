@@ -2,6 +2,9 @@
 {
     static void Main(string[] args)
     {
-        Console.Write("Cos");
+        for (int i = 0; i < 4; i++)
+        {
+            Console.Write($"{i}, ");
+        }
     }
 }
