@@ -6,5 +6,11 @@
         {
             Console.Write($"{i}, ");
         }
+        int j = 0;
+        while (j<10)
+        {
+            j++;
+            Console.Write($"{j}, ");
+        }
     }
 }
